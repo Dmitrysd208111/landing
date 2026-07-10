@@ -8,57 +8,74 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="head">
-        <img src="F:\repos\landing-project\header\sigma.jpg">
-        <>
-    </div>
-    <div class="1-stplace">
-            <h2 id="title1">This website is awesome</h2>
-            <p>This website has some subtext that goes here under the main title. It's a smaller fonr and the color os lower contrast</p>
-            <button class="signup" id="sign">Sign up</button>
-            <img src="F:\repos\landing-project\header\firstpicture.jpg">
-        </div>
-    <div class="ramdominfo">
-        <h2 id="title2">Some random inforamtion.</h2>
-        <div class="cards">
-            <div class="card1">
-                <div class="box"></div>
-                <p>whis is some text</p>
-                </div>
-            <div class="card2">
-                <div class="box"></div>
-                <p>this is some text</p>
-            </div>
-                <div class="card3">
+<header>
+<container>
+        <img src="images/logo.jpg" alt="hero-Logo">
+        <nav>
+            <ul>
+                <li><a href="#hero">header link one</a></li>
+                <li><a href="#info">header link two</a></li>
+                <li><a href="#quoter">header link three</a></li>
+            </ul>
+            </nav>
+            </container>
+</header>
+    <main>
+        <section class="hero" id="hero">
+            <container>
+                <div class="hero-content">
+                    <h1>This website is awesome</h1>
+                    <p>This website has some subtext that goes here under the main title. It's a smaller fonr and the color os lower contrast</p>
+                    <button class="signup">Sign up</button>
+                    </div>
+                    <div class="hero-image">
+                    <img src="images/firstpicture.jpg" alt="hero image">
+                    </div>
+                    </container>
+            </section>
+        <section class="information" id="info">
+            <h2>Some random inforamtion.</h2>
+            <div class="cards">
+                <div class="card">
+                    <div class="box"></div>
+                    <p>whis is some text</p>
+                    </div>
+                <div class="card">
                     <div class="box"></div>
                     <p>this is some text</p>
                 </div>
-                    <div class="card4">
+                    <div class="card">
                         <div class="box"></div>
                         <p>this is some text</p>
                     </div>
-            </div>
-        </div>
-<div class="quoter">
-        <p class="quocont">
-            This is an inspiring quote, or a testimonial from a customer...
-        </p>
-            <p class="author">
-                -Thor, God of Thunder
-            </p>
-    </div>
-    <section class="cta">
-    <div class="cta-container">
-        <div class="cta-text">
-            <h3>Call to action! It's time!</h3>
-            <p>Sign up for our product by clicking that button right over there!</p>
-        </div>
+                        <div class="card">
+                            <div class="box"></div>
+                            <p>this is some text</p>
+                        </div>
+                </div>
+            </section>
+                <section class="quoter" id="quoter">
+                        <blockquote class="quocont">
+                            This is an inspiring quote, or a testimonial from a customer...
+                        </blockquote>
+                            <cite class="author">
+                                -Thor, God of Thunder
+                            </cite>
+                    </section>
+                    <section class="cta">
+                    <div class="cta-container">
+                        <div class="cta-text">
+                            <h3>Call to action! It's time!</h3>
+                            <p>Sign up for our product by clicking that button right over there!</p>
+                        </div>  
 
-        <button>Sign up</button>
-    </div>
-</section>
-</body>
-<footer>
+                        <button>Sign up</button>
+        </div>
+    </section>
+    </main>
+    <footer>
     <p>Copyright © The Odin Project 2021</p>
 </footer>
+</body>
+
 </html>
