@@ -1,0 +1,18 @@
+body{
+    font-family: Robot;
+
+}
+
+nav{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+header{
+    background-color: #1f2937 ;
+}
+
+.hero{
+    background-color: #1f2937 ; 
+    display: flex;
+}
