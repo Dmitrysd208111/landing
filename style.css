@@ -1,6 +1,6 @@
 body{
     font-family: Roboto;
-
+    display: flex;
 }
 
 .section-header{
@@ -26,6 +26,8 @@ a:active{
 }
 
 nav {
+    display: flex;
+    flex-direction: row;
     justify-content: end;
 }
 
