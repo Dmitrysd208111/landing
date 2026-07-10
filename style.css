@@ -3,8 +3,30 @@ body{
 
 }
 
-header{
+.container-header{
     background-color: #1f2937 ;
+    display: flex;
+    flex-direction: row;
+}
+
+a:link{
+    color: #F9FAF8;
+}
+
+a:visited{
+        color: #F9FAF8;
+}
+
+a:hover{
+    color: gray;
+}
+
+a:active{
+    color: white;
+}
+
+nav {
+    justify-content: end;
 }
 
 .hero{
@@ -28,7 +50,6 @@ h1{
     size: 24px;
     color: #F9FAF8;
     display: flex;
-    flex-direction: row;
     justify-content: start;
 }
 
@@ -36,4 +57,5 @@ h1{
     background-color: #3882f6;
     border-radius: 15%;
     color:#f9faf8 ;
+    margin: 20px;
 }
