@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(#1F2937);
+    font-family: Robot;
+}
+
+#title1 {
+ display: flex;
+ justify-content: flex-start;
+ stroke-color: black;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+
+}
