@@ -1,3 +1,7 @@
+/* ==========================
+   RESET
+========================== */
+
 * {
     margin: 0;
     padding: 0;
@@ -8,18 +12,9 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: #F9FAF8;
-}
-
-a:hover {
-    color: #c9c9c9;
-}
+/* ==========================
+   HEADER
+========================== */
 
 .section-header {
     background: #1F2937;
@@ -28,7 +23,7 @@ a:hover {
     justify-content: space-between;
     align-items: center;
 
-    padding: 20px 220px;
+    padding: 22px 220px;
 }
 
 .section-header h1 {
@@ -37,14 +32,25 @@ a:hover {
 }
 
 ul {
+    list-style: none;
+
     display: flex;
-    gap: 25px;
+    gap: 28px;
 }
 
-ul a {
-    font-size: 18px;
+a {
+    text-decoration: none;
     color: #E5E7EB;
+    font-size: 18px;
 }
+
+a:hover {
+    color: white;
+}
+
+/* ==========================
+   HERO
+========================== */
 
 .hero {
     background: #1F2937;
@@ -55,24 +61,28 @@ ul a {
     justify-content: space-between;
     align-items: center;
 
-    padding: 100px 220px;
+    padding: 110px 220px;
 }
 
 .hero-container {
-    width: 470px;
+    width: 460px;
 }
 
 .hero-container h1 {
+    color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
-    color: #F9FAF8;
+    line-height: 1.1;
+
     margin-bottom: 10px;
 }
 
 .hero-container p {
     color: #E5E7EB;
     font-size: 18px;
-    margin-bottom: 20px;
+    line-height: 1.5;
+
+    margin-bottom: 18px;
 }
 
 .signup {
@@ -90,19 +100,31 @@ ul a {
     cursor: pointer;
 }
 
+.signup:hover {
+    background: #2e6fe0;
+}
+
 .hero-image img {
-    width: 500px;
+    width: 520px;
+    height: auto;
+
     display: block;
 }
 
+/* ==========================
+   INFORMATION
+========================== */
+
 .information {
-    padding: 70px 0;
+    padding: 70px 0 110px;
 }
 
 .information h2 {
     text-align: center;
     font-size: 36px;
+    font-weight: 900;
     color: #1F2937;
+
     margin-bottom: 50px;
 }
 
@@ -127,28 +149,43 @@ ul a {
     margin-bottom: 10px;
 }
 
+.card p {
+    color: #555;
+    line-height: 1.4;
+}
+
+/* ==========================
+   QUOTE
+========================== */
 
 .quoter {
     background: #E5E7EB;
 
-    padding: 120px 300px;
+    padding: 120px 320px;
 }
 
 .quocont {
     font-size: 36px;
     font-style: italic;
+    font-weight: 300;
+
     color: #1F2937;
 }
 
 .author {
     display: block;
+
+    margin-top: 18px;
+
     text-align: right;
-    margin-top: 20px;
 
     font-size: 24px;
     font-weight: bold;
 }
 
+/* ==========================
+   CTA
+========================== */
 
 .cta {
     padding: 100px 220px;
@@ -157,31 +194,31 @@ ul a {
 .cta-container {
     background: #3882F6;
 
-    border-radius: 10px;
-
-    padding: 50px 100px;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    padding: 50px 100px;
+
+    border-radius: 10px;
 }
 
 .cta-text h3 {
     color: white;
     font-size: 24px;
+    margin-bottom: 5px;
 }
 
 .cta-text p {
     color: #E5E7EB;
+    font-size: 18px;
 }
 
 .cta button {
     background: transparent;
-
-    border: 2px solid white;
-
     color: white;
 
+    border: 2px solid white;
     border-radius: 8px;
 
     padding: 10px 35px;
@@ -192,15 +229,26 @@ ul a {
     cursor: pointer;
 }
 
+.cta button:hover {
+    background: white;
+    color: #3882F6;
+}
+
+/* ==========================
+   FOOTER
+========================== */
 
 footer {
     background: #1F2937;
 
-    color: white;
+    height: 100px;
 
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
-    height: 90px;
+footer p {
+    color: #E5E7EB;
+    font-size: 18px;
 }
