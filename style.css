@@ -59,10 +59,10 @@ a:link {
 
 .hero-container button{
     background-color: #3882F6;
-    padding: 5px;
+    padding: 25px;
     border-radius: 15px;
 }
 
 .hero-image img {
-    width: 250px;
+    width: 350px;
 }
