@@ -23,7 +23,10 @@ body {
     justify-content: space-between;
     align-items: center;
 
-    padding: 22px 220px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    padding: 20px;
 }
 
 .section-header h1 {
@@ -56,16 +59,21 @@ a:hover {
     background: #1F2937;
 }
 
-.hero section {
+.hero-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    padding: 110px 220px;
+    padding: 80px 20px 120px;
+    gap: 80px;
 }
 
 .hero-container {
-    width: 460px;
+    flex: 1;
+    max-width: 500px;
 }
 
 .hero-container h1 {
@@ -74,7 +82,7 @@ a:hover {
     font-weight: 900;
     line-height: 1.1;
 
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .hero-container p {
@@ -82,20 +90,20 @@ a:hover {
     font-size: 18px;
     line-height: 1.5;
 
-    margin-bottom: 18px;
+    margin-bottom: 20px;
 }
 
 .signup {
     background: #3882F6;
-    color: white;
+    color: #F9FAF8;
 
     border: none;
     border-radius: 8px;
 
-    padding: 10px 35px;
+    padding: 10px 36px;
 
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 700;
 
     cursor: pointer;
 }
@@ -104,13 +112,17 @@ a:hover {
     background: #2e6fe0;
 }
 
-.hero-image img {
-    width: 520px;
-    height: auto;
-
-    display: block;
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
 }
 
+.hero-image img {
+    width: 550px;
+    max-width: 100%;
+    display: block;
+}
 /* ==========================
    INFORMATION
 ========================== */
