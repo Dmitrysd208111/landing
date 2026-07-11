@@ -21,10 +21,6 @@ a:hover {
     color: #c9c9c9;
 }
 
-/* ===========================
-   HEADER
-=========================== */
-
 .section-header {
     background: #1F2937;
 
@@ -49,10 +45,6 @@ ul a {
     font-size: 18px;
     color: #E5E7EB;
 }
-
-/* ===========================
-   HERO
-=========================== */
 
 .hero {
     background: #1F2937;
@@ -83,7 +75,7 @@ ul a {
     margin-bottom: 20px;
 }
 
-.hero-container button {
+.signup {
     background: #3882F6;
     color: white;
 
@@ -102,10 +94,6 @@ ul a {
     width: 500px;
     display: block;
 }
-
-/* ===========================
-   INFORMATION
-=========================== */
 
 .information {
     padding: 70px 0;
@@ -139,9 +127,6 @@ ul a {
     margin-bottom: 10px;
 }
 
-/* ===========================
-   QUOTE
-=========================== */
 
 .quoter {
     background: #E5E7EB;
@@ -164,9 +149,6 @@ ul a {
     font-weight: bold;
 }
 
-/* ===========================
-   CTA
-=========================== */
 
 .cta {
     padding: 100px 220px;
@@ -210,9 +192,6 @@ ul a {
     cursor: pointer;
 }
 
-/* ===========================
-   FOOTER
-=========================== */
 
 footer {
     background: #1F2937;
